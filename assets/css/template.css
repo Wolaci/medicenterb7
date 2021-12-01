@@ -124,10 +124,12 @@ nav a:hover{
   text-decoration: none;
 }
 
-.banner_horario{
-  font-size: 14px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  flex: 1;
-  border-bottom: 1px solid #FFFFFF;
-}
+.banner_schedule {
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #FFF;
+  text-shadow: 0px1px0px#555;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  }
