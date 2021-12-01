@@ -123,3 +123,11 @@ nav a:hover{
   font-size: 13px;
   text-decoration: none;
 }
+
+.banner_horario{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex: 1;
+  border-bottom: 1px solid #FFFFFF;
+}
