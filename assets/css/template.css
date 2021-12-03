@@ -132,4 +132,69 @@ nav a:hover{
   text-shadow: 0px1px0px#555;
   margin-top: 3px;
   margin-bottom: 3px;
-  }
+}
+
+#geral{
+  display:flex;
+  justify-content: center;
+}
+
+#geral section{
+  flex:2;
+}
+
+#geral aside{
+  flex:1
+}
+
+.widget_title{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.widget_title_text{
+  color: #000000;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.widget_title_bar{
+  width: 50px;
+  height: 2px;
+  background-color: #36a9e1;
+}
+
+.widget_departments_body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.widget_departments_body div {
+  width: 125px;
+  height: 125px;
+  background-color: #36a9e1;
+  margin: 10px;
+}
+
+
+.widget_appointment {
+  display: flex;
+  flex-direction: column;
+}
+.widget_appointment_text {
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ccc;
+}
+.widget_appointment address {
+  font-style: normal;
+}
+
+.widget_appointment_contact {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.widget_appointment_contact a {
+  color: #000;
+}
