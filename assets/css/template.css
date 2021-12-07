@@ -269,6 +269,7 @@ footer{
   display: block;
   text-decoration: none;
   padding: 20px;
+  color:#FFFFFF;
 }
 
 .fm_1, 
@@ -288,6 +289,15 @@ footer{
   background-color: #2b4c99;
 }
 
+.fm_title{
+  font-size: 21px;
+}
+.fm_desc{
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .footer_area{
   display: flex; 
 }
@@ -302,6 +312,7 @@ footer{
 footer .widget_title_text{
   color: #FFFFFF;
 }
+
 
 .footer_copy{
   border-top: 1px solid #2c2c2c;
